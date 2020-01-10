@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Bignumber.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversion.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadImage.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PassWord.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Science.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolveSolution.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransFormation.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransParent.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowMessage.cpp">
+      <Filter>Class\Sources Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bignumber.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversion.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadImage.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PassWord.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadyCalculator.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Science.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolveSolution.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Standard.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransFormation.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransParent.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMessage.h">
+      <Filter>Class\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\tb.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\tb1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{63819f47-7dbd-485e-a59f-206a27db7cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{b1f3c874-ef24-442e-a23b-560f31e9087a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Header Files">
+      <UniqueIdentifier>{ed2bcc8a-bba6-4f0c-8556-475a51f6a377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Sources Files">
+      <UniqueIdentifier>{4331d34d-8910-448b-8749-1b3ba300f809}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
