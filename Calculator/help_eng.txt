@@ -1,0 +1,33 @@
+This calculator is written to imitate the calculator of the windows 10 system.The development environment is visual stdio 2017 community + Easy 2018 (Spring Breeze Edition). It draws on some of the exterior designs of the win10 calculator and some of the functions it contains.
+However, all algorithms that implement this calculator are developed independently. So some of these functions may not be well written. In addition, there might be many BUGS in this calculator. Some improper operations or legitimate operations may cause the program to crash due to imperfect procedures. 
+If you find some major bugs, you can contact me. See my contacts below.
+
+The following describes some of the functions and usage included in this calculator.
+
+The calculator contains two functions: calculation function and conversion function. 
+The calculation function includes ordinary calculators, scientific calculators, and calculations of large numbers to solve unary one-time equations.
+The converter includes volume conversion, length conversion, weight conversion, temperature conversion, energy conversion, area conversion, speed conversion, time conversion, power conversion, data conversion, pressure conversion, and angle conversion. These transformations include basically all commonly used transformations.
+
+Ordinary calculator: to achieve the most common addition, subtraction, multiplication and division, through the string entered by the user (infix expression), it is converted into a suffix expression that computer can calculate (suffix expression is also known as inverse Polish formula), and finally through the stack to achieve the calculation.
+
+Scientific calculator: the so-called scientific calculator just adds some functions that can be calculated such as sin, cos, tan, etc. This calculator is not implemented according to the above ordinary calculator, but through the direct calculation of numbers, the function is not very well realized.(So I think scientific computing is not very easy to use)
+
+Super large number calculation: implements the addition, subtraction, multiplication and division of some very large numbers. The size of the number can be the addition, subtraction, multiplication and division of two numbers with less than 100,000 digits (because my array can store 100,000 digits). Among them, addition and multiplication support calculations containing decimals, negative numbers, etc., Subtraction and division can only calculate positive integers, and division does not support retaining decimal points.
+Perhaps later subtraction and division algorithms will be optimized. (As for legal input, there will be a prompt when entering. Illegal input may cause calculation errors, and more serious ones may cause the program to crash)
+
+Solution of equations: Only one-dimensional one-time equations can be solved, and the input one-dimensional one-time equations can be of any form. There is no requirement of any kind, it can be very long. (As long as it is a reasonable unary one-time equation) Note: The final result is to press the solution key.
+
+I won't introduce the various converters one by one, but there is a delete/c key in each converter. Pressing the left button clears one bit, and pressing the right button clears all.(In this way, if you enter a lot of digits, you can directly clear them all by pressing the right button, without clearing them one by one)./± key, the left button is the decimal point, and the right button is the inverse of the number.
+
+Thanks: There is an implementation method for transparent stickers. I used a method in the easyx Post Bar boutique tutorial. This algorithm is the name ”i92076“ issued on September 6, 2013. The post is named: "Want to draw transparent hollow?"No need to mask the map!！". Thank you very much for providing this algorithm.
+
+If you find a major bug, please contact me.
+
+
+
+Author: Er Ling Eryi
+Q Q：2117610943
+QQ mailbox:2117610943@qq.com
+Time: February 20, 2019
+
+P.S. from the translator: i've not find bugs (actually i didn't even try), however the eng-translation maybe will be usefull for someone
